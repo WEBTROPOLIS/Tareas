@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/margin_cardview_min"
+    app:cardCornerRadius="@dimen/cardview_radius_default"
+
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4A148C"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            tools:text="Titulo de la tarea"
+            />
+
+        <TextView
+            android:id="@+id/tvDescriptionTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_min"
+            tools:text="Descripcion de la tarea"
+            android:maxLines="@integer/tv_descriptionTask_max_lines"
+            android:minLines="@integer/tv_descriptionTask_min_lines"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

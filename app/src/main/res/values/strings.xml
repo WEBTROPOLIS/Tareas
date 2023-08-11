@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tareas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_app">Bienvenido a TaskApp</string>
+    <string name="tv_count_info">"Tareas encontradas : "</string>
+    <string name="btn_add_description">Boton de agregar</string>
+    <string name="btn_del_description">Boton de eliminar</string>
+    <string name="Title_Hint_til">Titulo de la tarea</string>
+    <string name="required">Obligatorio</string>
+    <string name="Des_Hint_til">Ingresa la Descripción de la tarea</string>
+    <string name="btn_back_description">Boton volver</string>
+    <string name="btn_save">Boton Guardar</string>
+    <string name="menu_save">Guardar</string>
+    <string name="menu_exit">Salir</string>
+</resources>
